@@ -22,12 +22,16 @@ jobs:
 #      run: swift run Generator
     - name: Check for changes
       run: |
+        # true if changes detected
         isChanged=$(git diff-index --quiet HEAD -- || echo "true");
-        if [[ $isChanged != "true" ]]; then
+        echo "IS_Changed=$isChanged" >> $GITHUB_ENV
+        if [[ $isChanged == "true" ]]; then
+            echo "Changes detected"
+        else
             echo "No changes detected"
-            exit 0
         fi
     - name: "This shouldn't run"
+      if: ${{ IS_CHANGED == "true" }}
       run: echo "This shouldn't run :o"
 #    - name: Build
 #      run: swift build -v
