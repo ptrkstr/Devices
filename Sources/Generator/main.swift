@@ -22,12 +22,21 @@ private struct Generator {
     private let currentDirectory = URL(fileURLWithPath: #file, isDirectory: false).deletingLastPathComponent()
     
     func generate() throws {
-        let location = URL(string: "https://www.theiphonewiki.com/wiki/Models")!
-//        let location = Bundle.module.resourceURL!.appendingPathComponent("Models - The iPhone Wiki.html")
-        let string = try String(contentsOf: location, encoding: .utf8)
+
+        let newLocation = URL(string: "https://www.theiphonewiki.com/wiki/Models")!
+        log("Downloading latest data from \(newLocation)...")
+        let newString = try String(contentsOf: newLocation, encoding: .utf8)
+        let newDocument = try SwiftSoup.parse(newString)
+        let newTables = try newDocument.getElementsByTag("table")
         
-        let document = try SwiftSoup.parse(string)
-        let tables = try document.getElementsByTag("table")
+        let storedLocation = Bundle.module.resourceURL!.appendingPathComponent("Models - The iPhone Wiki.html")
+        let storedString = try String(contentsOf: storedLocation, encoding: .utf8)
+        let storedDocument = try SwiftSoup.parse(storedString)
+        let storedTables = try storedDocument.getElementsByTag("table")
+        
+        guard try newTables.outerHtml() != storedTables.outerHtml() else {
+            return log("No changes detected since last download")
+        }
         
         var output =
         """
@@ -35,32 +44,32 @@ private struct Generator {
         // Manual modifications will be overwitten.
         """
         
-        try write(to: &output, from: tables, at: 1, for: Airpod.self)
-        try write(to: &output, from: tables, at: 2, for: Airtag.self)
-        try write(to: &output, from: tables, at: 3, for: AppleTV.self)
-        try write(to: &output, from: tables, at: 4, for: SiriRemote.self)
-        try write(to: &output, from: tables, at: 5, for: AppleWatch.self)
-        try write(to: &output, from: tables, at: 6, for: HomePod.self)
-        try write(to: &output, from: tables, at: 7, for: iPad.self)
-        try write(to: &output, from: tables, at: 8, for: ApplePencil.self)
-        try write(to: &output, from: tables, at: 9, for: SmartKeyboard.self)
-        try write(to: &output, from: tables, at: 10, for: iPadAir.self)
-        try write(to: &output, from: tables, at: 11, for: iPadPro.self)
-        try write(to: &output, from: tables, at: 12, for: iPadMini.self)
-        try write(to: &output, from: tables, at: 13, for: iPhone.self)
-        try write(to: &output, from: tables, at: 14, for: iPodTouch.self)
-        try write(to: &output, from: tables, at: 15, for: iMac.self)
-        try write(to: &output, from: tables, at: 16, for: MacMini.self)
-        try write(to: &output, from: tables, at: 17, for: MacBookAir.self)
-        try write(to: &output, from: tables, at: 18, for: MacBookPro.self)
+        try write(to: &output, from: newTables, at: 1, for: Airpod.self)
+        try write(to: &output, from: newTables, at: 2, for: Airtag.self)
+        try write(to: &output, from: newTables, at: 3, for: AppleTV.self)
+        try write(to: &output, from: newTables, at: 4, for: SiriRemote.self)
+        try write(to: &output, from: newTables, at: 5, for: AppleWatch.self)
+        try write(to: &output, from: newTables, at: 6, for: HomePod.self)
+        try write(to: &output, from: newTables, at: 7, for: iPad.self)
+        try write(to: &output, from: newTables, at: 8, for: ApplePencil.self)
+        try write(to: &output, from: newTables, at: 9, for: SmartKeyboard.self)
+        try write(to: &output, from: newTables, at: 10, for: iPadAir.self)
+        try write(to: &output, from: newTables, at: 11, for: iPadPro.self)
+        try write(to: &output, from: newTables, at: 12, for: iPadMini.self)
+        try write(to: &output, from: newTables, at: 13, for: iPhone.self)
+        try write(to: &output, from: newTables, at: 14, for: iPodTouch.self)
+        try write(to: &output, from: newTables, at: 15, for: iMac.self)
+        try write(to: &output, from: newTables, at: 16, for: MacMini.self)
+        try write(to: &output, from: newTables, at: 17, for: MacBookAir.self)
+        try write(to: &output, from: newTables, at: 18, for: MacBookPro.self)
         
         try persist(output)
-        try persistWiki(string)
+        try persistWiki(newString)
     }
 
     private func write<T: Decodable>(to string: inout String, from tables: Elements, at index: Int, for type: T.Type) throws {
         
-        print("- Parsing \(type)...")
+        log("Parsing \(type)...")
         
         let array = try slab.convert(
             tables[index].outerHtml(),
@@ -122,17 +131,21 @@ private struct Generator {
     }
 }
 
+func log(_ string: String) {
+    print("Devices Generator: \(string)")
+}
+
 //func main(args: [String]) throws {
 //}
 //    try main(args: CommandLine.arguments)
 
 do {
-    print("⏳ Generation started...")
+    log("Started")
     try Generator().generate()
-    print("✅ Generation succeeded")
+    log("Finished")
     exit(EXIT_SUCCESS)
 } catch {
-    print("ERROR: \(error.localizedDescription)")
+    log("ERROR - \(error.localizedDescription)")
     exit(EXIT_FAILURE)
 }
 RunLoop.main.run()
