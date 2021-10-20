@@ -13,18 +13,22 @@ jobs:
   build:
 
     runs-on: macos-11
-
+#
     steps:
 #    - uses: actions/checkout@v2
 #    - name: Build Generator
 #      run: swift build --target Generator
 #    - name: Run Generator
 #      run: swift run Generator
-    - name: Check for new updates
+    - name: Check for changes
       run: |
-        echo "Checking for updates"
-        echo "No updates, bye bye"
-        exit 0
+        isChanged=$(git diff-index --quiet HEAD -- || echo "true");
+        if [[ $isChanged == "true" ]]; then
+            echo "No changes detected"
+            exit 0
+        fi
+    - name: "This shouldn't run"
+      run: echo "This shouldn't run :o"
 #    - name: Build
 #      run: swift build -v
 #    - name: Run tests
