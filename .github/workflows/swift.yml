@@ -15,9 +15,16 @@ jobs:
     runs-on: macos-11
 
     steps:
-    - name: Testing
-      run: echo HelloWorld
-#    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2
+    - name: Build Generator
+      run: swift build --target Generator
+    - name: Run Generator
+      run: swift run Generator
+    - name: Check for new updates
+      run:
+        echo "Checking for updates"
+        echo "No updates, bye bye"
+        exit 0
 #    - name: Build
 #      run: swift build -v
 #    - name: Run tests
