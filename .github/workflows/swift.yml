@@ -31,7 +31,7 @@ jobs:
             echo "No changes detected"
         fi
     - name: "This shouldn't run"
-      if: ${{ IS_CHANGED == "true" }}
+      if: ${{ env.IS_CHANGED == "true" }}
       run: echo "This shouldn't run :o"
 #    - name: Build
 #      run: swift build -v
