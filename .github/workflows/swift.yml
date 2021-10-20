@@ -21,7 +21,7 @@ jobs:
 #    - name: Run Generator
 #      run: swift run Generator
     - name: Check for new updates
-      run: >
+      run: |
         echo "Checking for updates"
         echo "No updates, bye bye"
         exit 0
