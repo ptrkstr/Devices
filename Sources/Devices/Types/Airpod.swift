@@ -30,23 +30,3 @@ extension Airpod: Decodable {
         model = try container.decode(.model)
     }
 }
-
-extension KeyedDecodingContainer where Key : CodingKey {
-    
-    // TODO: If T is [String], split
-    // TODO: if T is string, validate that there is no new line
-    
-    func decode(_ key: KeyedDecodingContainer<K>.Key) throws -> String {
-        try decode(String.self, forKey: key)
-    }
-}
-
-extension String {
-    func splitNewline() -> [String] {
-        components(separatedBy: "\n")
-    }
-    
-    func splitComma() -> [String] {
-        components(separatedBy: ", ")
-    }
-}
