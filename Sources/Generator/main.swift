@@ -24,7 +24,7 @@ private struct Generator {
     func generate() throws {
 
         let newLocation = URL(string: "https://www.theiphonewiki.com/wiki/Models")!
-        log("Downloading latest data from \(newLocation)...")
+        log("Downloading latest data from \(newLocation)")
         let newString = try String(contentsOf: newLocation, encoding: .utf8)
         let newDocument = try SwiftSoup.parse(newString)
         let newTables = try newDocument.getElementsByTag("table")
@@ -69,7 +69,7 @@ private struct Generator {
 
     private func write<T: Decodable>(to string: inout String, from tables: Elements, at index: Int, for type: T.Type) throws {
         
-        log("Parsing \(type)...")
+        log("Parsing \(type)")
         
         let array = try slab.convert(
             tables[index].outerHtml(),
@@ -102,12 +102,14 @@ private struct Generator {
     }
     
     private func persistWiki(_ string: String) throws {
+        log("Saving `Models - The iPhone Wiki.html`")
         let ouputDirectory = currentDirectory.appendingPathComponent("Resources/Models - The iPhone Wiki.html")
         let data = string.data(using: .utf8)!
         try data.write(to: ouputDirectory)
     }
     
     private func persist(_ string: String) throws {
+        log("Saving `Devices.swift`")
         let ouputDirectory = currentDirectory.appendingPathComponent("../Devices/Devices.swift")
         let data = string.data(using: .utf8)!
         try data.write(to: ouputDirectory)
