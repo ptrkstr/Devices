@@ -30,9 +30,20 @@ jobs:
         else
             echo "No changes detected"
         fi
-    - name: "This shouldn't run"
-      if: ${{ env.IS_CHANGED == 'true' }}
-      run: echo "This shouldn't run :o"
+    - name: "Build package"
+      if: ${{ env.IS_CHANGED != 'true' }}
+      run: swift build --target Devices
+    - name: "Create pull request"
+      if: ${{ env.IS_CHANGED != 'true' }}
+      uses: peter-evans/create-pull-request@v3
+      with:
+        commit-message: "Generator run"
+        branch: "automated/generator"
+        delete-branch: true
+        title: "Automated: Generator changes"
+        body: ""
+        assignees: "ptrkstr"
+    
 #    - name: Build
 #      run: swift build -v
 #    - name: Run tests
