@@ -16,10 +16,10 @@ jobs:
 #
     steps:
     - uses: actions/checkout@v2
-#    - name: Build Generator
-#      run: swift build --target Generator
-#    - name: Run Generator
-#      run: swift run Generator
+    - name: Build Generator
+      run: swift build --target Generator
+    - name: Run Generator
+      run: swift run Generator
     - name: Check for changes
       run: |
         # true if changes detected
@@ -30,11 +30,11 @@ jobs:
         else
             echo "No changes detected"
         fi
-    - name: "Build package"
-      if: ${{ env.IS_CHANGED != 'true' }}
+    - name: "Ensure package still builds"
+      if: ${{ env.IS_CHANGED == 'true' }}
       run: swift build --target Devices
     - name: "Create pull request"
-      if: ${{ env.IS_CHANGED != 'true' }}
+      if: ${{ env.IS_CHANGED == 'true' }}
       uses: peter-evans/create-pull-request@v3
       with:
         commit-message: "Generator run"
