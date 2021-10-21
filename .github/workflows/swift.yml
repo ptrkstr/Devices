@@ -23,7 +23,7 @@ jobs:
     - name: Check for changes
       run: |
         # true if changes detected
-#        isChanged=$(git diff-index --quiet HEAD -- || echo "true");
+        # sisChanged=$(git diff-index --quiet HEAD -- || echo "true");
         isChanged="true"
         echo "IS_Changed=$isChanged" >> $GITHUB_ENV
         if [[ $isChanged == "true" ]]; then
