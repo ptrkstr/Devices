@@ -13,18 +13,17 @@ jobs:
   build:
 
     runs-on: macos-11
-#
+
     steps:
     - uses: actions/checkout@v2
-#    - name: Build Generator
-#      run: swift build --target Generator
-#    - name: Run Generator
-#      run: swift run Generator
+    - name: Build Generator
+      run: swift build --target Generator
+    - name: Run Generator
+      run: swift run Generator
     - name: Check for changes
       run: |
         # true if changes detected
-        # isChanged=$(git diff-index --quiet HEAD -- || echo "true");
-        isChanged="true"
+        isChanged=$(git diff-index --quiet HEAD -- || echo "true");
         echo "IS_CHANGED=$isChanged" >> $GITHUB_ENV
         if [[ $isChanged == "true" ]]; then
             echo "Changes detected"
