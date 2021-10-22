@@ -61,42 +61,6 @@ iPad.model.components(separatedBy: ", ") // ["ME814", "ME818", "MF074", "MF075",
 
 See FAQ for why `Set` is used in some examples.
 
-## List of Devices and Properties
-
-- Airpod
-  - generation
-  - aNumber
-  - bootroom
-  - fccID
-  - internalName
-  - Identifier
-  - model
-- Airtag
-  - generation
-  - aNumber
-  - bootroom
-  - fccID
-  - internalName
-  - Identifier
-  - packSize
-  - model
-- ApplePencil
-- AppleTV
-- AppleWatch
-- HomePod
-- iMac
-- iPad
-- iPadAir
-- iPadMini
-- iPadPro
-- iPhone
-- iPodTouch
-- MacBookAir
-- MacBookPro
-- MacMini
-- SiriRemote
-- SmartKeyboard
-
 ## Installation
 
 ### SPM
@@ -110,6 +74,10 @@ https://github.com/ptrkstr/Slab
 ### How quickly will this update when Apple release new devices?
 
 ## FAQ
+
+### What are the list of devices and properties I can access?
+
+You can see them by going to [Types](/Sources/Devices/Types).
 
 ### Why can I see duplicated devices? I.e. iPad Air has 3 sets of Silver 16 GB.
 
