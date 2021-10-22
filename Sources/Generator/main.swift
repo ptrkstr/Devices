@@ -23,6 +23,9 @@ private struct Generator {
     
     func generate() throws {
 
+        
+        
+        
         let newLocation = URL(string: "https://www.theiphonewiki.com/wiki/Models")!
         log("Downloading latest data from \(newLocation)")
         let newString = try String(contentsOf: newLocation, encoding: .utf8)
