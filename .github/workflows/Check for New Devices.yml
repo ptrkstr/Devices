@@ -18,10 +18,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Navigate to Generator directory
+      run: cd Generator
     - name: Build Generator
-      run: swift build --target Generator
+      run: swift build -v
     - name: Run Generator
-      run: swift run Generator
+      run: swift run -v
     - name: Check for changes
       run: |
         # true if changes detected

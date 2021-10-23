@@ -23,9 +23,6 @@ private struct Generator {
     
     func generate() throws {
 
-        
-        
-        
         let newLocation = URL(string: "https://www.theiphonewiki.com/wiki/Models")!
         log("Downloading latest data from \(newLocation)")
         let newString = try String(contentsOf: newLocation, encoding: .utf8)
@@ -113,7 +110,7 @@ private struct Generator {
     
     private func persist(_ string: String) throws {
         log("Saving `Devices.swift`")
-        let ouputDirectory = currentDirectory.appendingPathComponent("../Devices/Devices.swift")
+        let ouputDirectory = currentDirectory.appendingPathComponent("../../../Sources/Devices/Devices.swift")
         let data = string.data(using: .utf8)!
         try data.write(to: ouputDirectory)
     }
