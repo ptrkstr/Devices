@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Assets/logo/logo.svg" height=150pt/>
+  <img src="Assets/logo/logo.svg" height=200pt/>
     <h1 style="border-bottom: none">
         Devices      
     </h1>
@@ -17,6 +17,34 @@
     Swift package that contains all devices from <a href="https://www.theiphonewiki.com/wiki/Models">https://www.theiphonewiki.com/wiki/Models</a>. A common use case is wanting to convert device identifiers (also known as machine identifiers) such as iPhone10,1 to a user friendly name; iPhone 8.
   </p>
 </div>
+
+
+## Features
+
+- All Apple Devices
+  - 🎧 AirPods
+  - ⚪️ AirTags
+  - 📺 AppleTVs
+    - SiriRemotes
+  - ⌚️ Apple Watches
+  - 🏠 HomePods
+  - 🔲 iPads
+    - ✏️ Apple Pencils
+    - ⌨️ Smart Keyboard
+  - 📱 iPhones
+  - 📱 iPod Touches
+  - 💻 Macs
+- 📝 Provides device information on:
+  - Generation - iPhone XR
+  - Bootroom - Bootrom 3865.0.0.4.7
+  - Internal Name - N841AP
+  - Identifier - iPhone11,8 
+  - Storage - 64 GB
+  - Color/Finish - Black
+  - Model - MRY42
+  - more!
+- 🕒 Checks for new devices every day.
+- 📱 No networking, runs offline.
 
 ## Usage
 
