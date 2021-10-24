@@ -14,7 +14,7 @@
   </div>
     <br>
   <p>
-    Swift package that contains all devices from https://www.theiphonewiki.com/wiki/Models
+    Swift package that contains all devices from <a href="https://www.theiphonewiki.com/wiki/Models">https://www.theiphonewiki.com/wiki/Models</a>. A common use case is wanting to convert device identifiers (also known as machine identifiers) such as iPhone10,1 to a user friendly name; iPhone 8.
   </p>
 </div>
 
