@@ -44,7 +44,7 @@
   - Model - MRY42
   - more!
 - 🕒 Checks for new devices every day.
-- 📱 No networking, runs offline.
+- 🔌 No networking, runs offline.
 
 ## Usage
 
