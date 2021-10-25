@@ -93,7 +93,7 @@ See FAQ for why `Set` is used in some examples.
 ### SPM
 Add the following to your project:  
 ```
-https://github.com/ptrkstr/Slab
+https://github.com/ptrkstr/Devices
 ```
 
 ## FAQ
