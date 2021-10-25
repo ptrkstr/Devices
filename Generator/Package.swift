@@ -9,7 +9,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/scinfu/SwiftSoup", .upToNextMajor(from: "2.0.0")),
         .package(url: "https://github.com/ptrkstr/Slab", .upToNextMajor(from: "1.0.0")),
-        .package(url: "../", from: "1.0.0") // Devices
+        .package(path: "../") // Devices
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
