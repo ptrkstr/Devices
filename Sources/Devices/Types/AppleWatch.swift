@@ -1,4 +1,4 @@
-public struct AppleWatch {
+public struct AppleWatch: Decodable {
     let generation: String
     let aNumber: String
     let bootrom: String
@@ -21,21 +21,5 @@ public struct AppleWatch {
         case finish = "Finish"
         case caseSize = "Case Size"
         case model = "Model"
-    }
-}
-
-extension AppleWatch: Decodable {
-    public init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        generation = try container.decode(.generation)
-        aNumber = try container.decode(.aNumber)
-        bootrom = try container.decode(.bootrom)
-        fccID = try container.decode(.fccID)
-        internalName = try container.decode(.internalName)
-        identifier = try container.decode(.identifier)
-        caseMaterial = try container.decode(.caseMaterial)
-        finish = try container.decode(.finish)
-        caseSize = try container.decode(.caseSize)
-        model = try container.decode(.model)
     }
 }
