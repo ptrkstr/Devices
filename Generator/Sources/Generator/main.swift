@@ -23,12 +23,14 @@ private struct Generator {
         let newTables = try newDocument.getElementsByTag("table")
         
         let storedLocation = Bundle.module.resourceURL!.appendingPathComponent("Models - The iPhone Wiki.html")
-        let storedString = try String(contentsOf: storedLocation, encoding: .utf8)
-        let storedDocument = try SwiftSoup.parse(storedString)
-        let storedTables = try storedDocument.getElementsByTag("table")
-        
-        guard try newTables.outerHtml() != storedTables.outerHtml() else {
-            return log("No changes detected since last download")
+        if FileManager.default.fileExists(atPath: storedLocation.path) {
+            let storedString = try String(contentsOf: storedLocation, encoding: .utf8)
+            let storedDocument = try SwiftSoup.parse(storedString)
+            let storedTables = try storedDocument.getElementsByTag("table")
+            
+            guard try newTables.outerHtml() != storedTables.outerHtml() else {
+                return log("No changes detected since last download")
+            }
         }
         
         var output =
