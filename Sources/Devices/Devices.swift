@@ -1,4 +1,4 @@
-// Generated on 2021-10-27 03:16:36 +0000
+// Generated on 2021-12-05 03:16:56 +0000
 // Manual modifications will be overwitten.
 
 public extension Airpod {
@@ -7,7 +7,7 @@ public extension Airpod {
 			.init(generation: "AirPods (1st generation)", aNumber: "A1523 (right AirPod)\nA1722 (left AirPod)\nA1602 (charging case)", bootrom: "Unknown", fccID: "BCG-A1523\nBCG-A1722", internalName: "B188AP", identifier: "AirPods1,1", model: "MMEF2"),
 			.init(generation: "AirPods (2nd generation)", aNumber: "A2031 (left AirPod)\nA2032 (right AirPod)\nA1938 (wireless charging case)", bootrom: "Unknown", fccID: "BCG-A2031\nBCG-A2032", internalName: "B288AP", identifier: "AirPods1,2\nAirPods2,1", model: "MRXJ2, MV7N2, MR8U2"),
 			.init(generation: "AirPods (3rd generation)", aNumber: "A2564 (right AirPod?)", bootrom: "Unknown", fccID: "BCG-A2564\nBCG-A2565", internalName: "B688AP", identifier: "AirPods1,3\nAudio2,1", model: ""),
-			.init(generation: "AirPods Pro", aNumber: "A2083 (left AirPod)\nA2084 (right AirPod)\nA2190 (AirPods Pro charging case)", bootrom: "Unknown", fccID: "BCG-A2083\nBCG-A2084", internalName: "B298AP", identifier: "AirPods2,2\nAirPodsPro1,1\niProd8,1", model: "MWP22"),
+			.init(generation: "AirPods Pro", aNumber: "A2083 (left AirPod)\nA2084 (right AirPod)\nA2190 (AirPods Pro charging case)", bootrom: "Unknown", fccID: "BCG-A2083\nBCG-A2084", internalName: "B298AP", identifier: "AirPods2,2\nAirPodsPro1,1\niProd8,1", model: "MWP22, MLWK3"),
 			.init(generation: "AirPods Max", aNumber: "A2096", bootrom: "Unknown", fccID: "BCG-A2096", internalName: "B515AP", identifier: "AirPodsMax1,1\niProd8,6", model: "MGYH3, MGYJ3, MGYL3, MGYM3, MGYN3")
         ]
     }
