@@ -1,21 +1,22 @@
 <div align="center">
-  <img src="Assets/logo/logo.svg" height=200pt/>
+    <img src="Assets/logo/logo.svg" height=150pt/>
     <h1 style="border-bottom: none">
         Devices      
     </h1>
-  <br>
-  <div>
-      <a href="https://swiftpackageindex.com/ptrkstr/Devices"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fptrkstr%2FDevices%2Fbadge%3Ftype%3Dplatforms"/></a>
-      <a href="https://swiftpackageindex.com/ptrkstr/Devices"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fptrkstr%2FDevices%2Fbadge%3Ftype%3Dswift-versions"/></a>
-      <br>
-      <a href="https://github.com/apple/swift-package-manager" alt="Devices on Swift Package Manager"><img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg" /></a>
-      <a href="https://github.com/ptrkstr/Devices/actions/workflows/swift.yml"><img src="https://github.com/ptrkstr/Devices/actions/workflows/Update Code Coverage.yml/badge.svg"/></a>
-      <a href="https://codecov.io/gh/ptrkstr/Devices"><img src="https://codecov.io/gh/ptrkstr/Devices/branch/develop/graph/badge.svg?token=UiVsVkDNYA"/></a>
-  </div>
     <br>
-  <p>
-    Swift package that contains all devices from <a href="https://www.theiphonewiki.com/wiki/Models">https://www.theiphonewiki.com/wiki/Models</a>. A common use case is wanting to convert device identifiers (also known as machine identifiers) such as iPhone10,1 to a user friendly name; iPhone 8.
-  </p>
+    <div>
+        <p>
+            <a href="https://swiftpackageindex.com/ptrkstr/Devices"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fptrkstr%2FDevices%2Fbadge%3Ftype%3Dplatforms"/></a>
+            <a href="https://swiftpackageindex.com/ptrkstr/Devices"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fptrkstr%2FDevices%2Fbadge%3Ftype%3Dswift-versions"/></a>
+		<br>
+            <a href="https://github.com/ptrkstr/Devices/actions/workflows/swift.yml"><img src="https://github.com/ptrkstr/Devices/actions/workflows/Update Code Coverage.yml/badge.svg"/></a>
+            <a href="https://codecov.io/gh/ptrkstr/Devices"><img src="https://codecov.io/gh/ptrkstr/Devices/branch/develop/graph/badge.svg?token=UiVsVkDNYA"/></a>
+            <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fptrkstr%2FDevices&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+        </p>
+    </div>
+    <p>
+        Swift package that contains all devices from <a href="https://www.theiphonewiki.com/wiki/Models">https://www.theiphonewiki.com/wiki/Models</a>. A common use case is wanting to convert device identifiers (also known as machine identifiers) such as iPhone10,1 to a user friendly name; iPhone 8.
+    </p>
 </div>
 
 
