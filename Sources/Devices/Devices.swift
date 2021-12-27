@@ -1,4 +1,4 @@
-// Generated on 2021-12-05 03:16:56 +0000
+// Generated on 2021-12-27 03:23:38 +0000
 // Manual modifications will be overwitten.
 
 public extension Airpod {
@@ -1280,7 +1280,15 @@ public extension iPhone {
 			.init(generation: "iPhone XS Max", aNumber: "A2104", bootrom: "Bootrom 3865.0.0.4.7", fccID: "BCG-E3219A", internalName: "D331pAP", identifier: "iPhone11,6", finish: "Space Gray", storage: "64 GB", model: "MT712"),
 			.init(generation: "iPhone XS Max", aNumber: "A2104", bootrom: "Bootrom 3865.0.0.4.7", fccID: "BCG-E3219A", internalName: "D331pAP", identifier: "iPhone11,6", finish: "Space Gray", storage: "256 GB", model: "MT742"),
 			.init(generation: "iPhone XS Max", aNumber: "A2104", bootrom: "Bootrom 3865.0.0.4.7", fccID: "BCG-E3219A", internalName: "D331pAP", identifier: "iPhone11,6", finish: "Space Gray", storage: "512 GB", model: "MT772"),
-			.init(generation: "iPhone XS Max", aNumber: "?", bootrom: "?", fccID: "?", internalName: "D331AP", identifier: "iPhone11,4", finish: "?", storage: "?", model: "?"),
+			.init(generation: "iPhone XS Max", aNumber: "A2103", bootrom: "Bootrom 3865.0.0.4.7", fccID: "?", internalName: "D331AP", identifier: "iPhone11,4", finish: "Gold", storage: "64 GB", model: "MT7D2"),
+			.init(generation: "iPhone XS Max", aNumber: "A2103", bootrom: "Bootrom 3865.0.0.4.7", fccID: "?", internalName: "D331AP", identifier: "iPhone11,4", finish: "Gold", storage: "256 GB", model: "MT7G2"),
+			.init(generation: "iPhone XS Max", aNumber: "A2103", bootrom: "Bootrom 3865.0.0.4.7", fccID: "?", internalName: "D331AP", identifier: "iPhone11,4", finish: "Gold", storage: "512 GB", model: "?"),
+			.init(generation: "iPhone XS Max", aNumber: "A2103", bootrom: "Bootrom 3865.0.0.4.7", fccID: "?", internalName: "D331AP", identifier: "iPhone11,4", finish: "Silver", storage: "64 GB", model: "?"),
+			.init(generation: "iPhone XS Max", aNumber: "A2103", bootrom: "Bootrom 3865.0.0.4.7", fccID: "?", internalName: "D331AP", identifier: "iPhone11,4", finish: "Silver", storage: "256 GB", model: "?"),
+			.init(generation: "iPhone XS Max", aNumber: "A2103", bootrom: "Bootrom 3865.0.0.4.7", fccID: "?", internalName: "D331AP", identifier: "iPhone11,4", finish: "Silver", storage: "512 GB", model: "?"),
+			.init(generation: "iPhone XS Max", aNumber: "A2103", bootrom: "Bootrom 3865.0.0.4.7", fccID: "?", internalName: "D331AP", identifier: "iPhone11,4", finish: "Space Gray", storage: "64 GB", model: "?"),
+			.init(generation: "iPhone XS Max", aNumber: "A2103", bootrom: "Bootrom 3865.0.0.4.7", fccID: "?", internalName: "D331AP", identifier: "iPhone11,4", finish: "Space Gray", storage: "256 GB", model: "MT7E2"),
+			.init(generation: "iPhone XS Max", aNumber: "A2103", bootrom: "Bootrom 3865.0.0.4.7", fccID: "?", internalName: "D331AP", identifier: "iPhone11,4", finish: "Space Gray", storage: "512 GB", model: "?"),
 			.init(generation: "iPhone 11", aNumber: "A2111", bootrom: "Bootrom 4479.0.0.100.4", fccID: "BCG-E3309A", internalName: "N104AP", identifier: "iPhone12,1", finish: "Black", storage: "64 GB", model: "MWHT2, MWK02, MWJE2, MWKM2, MWL72"),
 			.init(generation: "iPhone 11", aNumber: "A2111", bootrom: "Bootrom 4479.0.0.100.4", fccID: "BCG-E3309A", internalName: "N104AP", identifier: "iPhone12,1", finish: "Black", storage: "128 GB", model: "MWJ02, MWK72, MWJL2, MWKU2, MWLE2"),
 			.init(generation: "iPhone 11", aNumber: "A2111", bootrom: "Bootrom 4479.0.0.100.4", fccID: "BCG-E3309A", internalName: "N104AP", identifier: "iPhone12,1", finish: "Black", storage: "256 GB", model: "MWJ62, MWKF2, MWJT2, MWL12, MWLL2"),
