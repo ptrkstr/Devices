@@ -1,4 +1,4 @@
-// Generated on 2022-02-02 03:15:18 +0000
+// Generated on 2022-03-14 03:05:12 +0000
 // Manual modifications will be overwitten.
 
 public extension Airpod {
@@ -1505,6 +1505,9 @@ public extension iPhone {
 			.init(generation: "iPhone 13 mini", aNumber: "A2481\nA2626\nA2629\nA2630\nA2628", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D16AP", identifier: "iPhone14,4", finish: "Pink", storage: "128 GB", model: "MLK23, MLHP3, MLDE3"),
 			.init(generation: "iPhone 13 mini", aNumber: "A2481\nA2626\nA2629\nA2630\nA2628", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D16AP", identifier: "iPhone14,4", finish: "Pink", storage: "256 GB", model: "MLK73, MLHV3, MLDK3"),
 			.init(generation: "iPhone 13 mini", aNumber: "A2481\nA2626\nA2629\nA2630\nA2628", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D16AP", identifier: "iPhone14,4", finish: "Pink", storage: "512 GB", model: "MLKD3, MLJ13, MLDQ3"),
+			.init(generation: "iPhone 13 mini", aNumber: "A2481\nA2626\nA2629\nA2630\nA2628", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D16AP", identifier: "iPhone14,4", finish: "Green", storage: "128 GB", model: "MNF83, MNF53, MNFF3"),
+			.init(generation: "iPhone 13 mini", aNumber: "A2481\nA2626\nA2629\nA2630\nA2628", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D16AP", identifier: "iPhone14,4", finish: "Green", storage: "256 GB", model: "MNF93, MNF63, MNFG3"),
+			.init(generation: "iPhone 13 mini", aNumber: "A2481\nA2626\nA2629\nA2630\nA2628", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D16AP", identifier: "iPhone14,4", finish: "Green", storage: "512 GB", model: "MNFA3, MNF73, MNFH3"),
 			.init(generation: "iPhone 13", aNumber: "A2482\nA2631\nA2634\nA2635\nA2633", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D17AP", identifier: "iPhone14,5", finish: "PRODUCT(RED)", storage: "128 GB", model: "MLPJ3, MLMQ3, MLDX3"),
 			.init(generation: "iPhone 13", aNumber: "A2482\nA2631\nA2634\nA2635\nA2633", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D17AP", identifier: "iPhone14,5", finish: "PRODUCT(RED)", storage: "256 GB", model: "MLQ93, MLN03, MLE33"),
 			.init(generation: "iPhone 13", aNumber: "A2482\nA2631\nA2634\nA2635\nA2633", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D17AP", identifier: "iPhone14,5", finish: "PRODUCT(RED)", storage: "512 GB", model: "MLQF3, MLN53, MLEA3"),
@@ -1520,6 +1523,9 @@ public extension iPhone {
 			.init(generation: "iPhone 13", aNumber: "A2482\nA2631\nA2634\nA2635\nA2633", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D17AP", identifier: "iPhone14,5", finish: "Pink", storage: "128 GB", model: "MLPH3, MLMN3, MLDW3"),
 			.init(generation: "iPhone 13", aNumber: "A2482\nA2631\nA2634\nA2635\nA2633", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D17AP", identifier: "iPhone14,5", finish: "Pink", storage: "256 GB", model: "MLQ83, MLMY3, MLE23"),
 			.init(generation: "iPhone 13", aNumber: "A2482\nA2631\nA2634\nA2635\nA2633", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D17AP", identifier: "iPhone14,5", finish: "Pink", storage: "512 GB", model: "MLQE3, MLN43, MLE93"),
+			.init(generation: "iPhone 13", aNumber: "A2482\nA2631\nA2634\nA2635\nA2633", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D17AP", identifier: "iPhone14,5", finish: "Green", storage: "128 GB", model: "MNGD3, MNG93, MNGK3"),
+			.init(generation: "iPhone 13", aNumber: "A2482\nA2631\nA2634\nA2635\nA2633", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D17AP", identifier: "iPhone14,5", finish: "Green", storage: "256 GB", model: "MNGE3, MNGA3, MNGL3"),
+			.init(generation: "iPhone 13", aNumber: "A2482\nA2631\nA2634\nA2635\nA2633", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D17AP", identifier: "iPhone14,5", finish: "Green", storage: "512 GB", model: "MNGF3, MNGC3, MNGM3"),
 			.init(generation: "iPhone 13 Pro", aNumber: "A2483\nA2636\nA2639\nA2640\nA2638", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D63AP", identifier: "iPhone14,2", finish: "Graphite", storage: "128 GB", model: "MLV93, MLTP3, MLT53"),
 			.init(generation: "iPhone 13 Pro", aNumber: "A2483\nA2636\nA2639\nA2640\nA2638", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D63AP", identifier: "iPhone14,2", finish: "Graphite", storage: "256 GB", model: "MLVE3, MLTW3, MLT93"),
 			.init(generation: "iPhone 13 Pro", aNumber: "A2483\nA2636\nA2639\nA2640\nA2638", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D63AP", identifier: "iPhone14,2", finish: "Graphite", storage: "512 GB", model: "MLVH3, MLU13, MLTF3"),
@@ -1536,6 +1542,10 @@ public extension iPhone {
 			.init(generation: "iPhone 13 Pro", aNumber: "A2483\nA2636\nA2639\nA2640\nA2638", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D63AP", identifier: "iPhone14,2", finish: "Sierra Blue", storage: "256 GB", model: "MLVP3, MLU03, MLTE3"),
 			.init(generation: "iPhone 13 Pro", aNumber: "A2483\nA2636\nA2639\nA2640\nA2638", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D63AP", identifier: "iPhone14,2", finish: "Sierra Blue", storage: "512 GB", model: "MLVU3, MLU73, MLTJ3"),
 			.init(generation: "iPhone 13 Pro", aNumber: "A2483\nA2636\nA2639\nA2640\nA2638", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D63AP", identifier: "iPhone14,2", finish: "Sierra Blue", storage: "1TB", model: "MLW03, MLUD3, MLTN3"),
+			.init(generation: "iPhone 13 Pro", aNumber: "A2483\nA2636\nA2639\nA2640\nA2638", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D63AP", identifier: "iPhone14,2", finish: "Alpine Green", storage: "128 GB", model: "MNDT3, MNDN3, MNE23"),
+			.init(generation: "iPhone 13 Pro", aNumber: "A2483\nA2636\nA2639\nA2640\nA2638", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D63AP", identifier: "iPhone14,2", finish: "Alpine Green", storage: "256 GB", model: "MNDU3, MNDP3, MNE33"),
+			.init(generation: "iPhone 13 Pro", aNumber: "A2483\nA2636\nA2639\nA2640\nA2638", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D63AP", identifier: "iPhone14,2", finish: "Alpine Green", storage: "512 GB", model: "MNDV3, MNDQ3, MNE43"),
+			.init(generation: "iPhone 13 Pro", aNumber: "A2483\nA2636\nA2639\nA2640\nA2638", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D63AP", identifier: "iPhone14,2", finish: "Alpine Green", storage: "1 TB", model: "MNDW3, MNDR3, MNE53"),
 			.init(generation: "iPhone 13 Pro Max", aNumber: "A2484\nA2641\nA2644\nA2645\nA2643", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D64AP", identifier: "iPhone14,3", finish: "Graphite", storage: "128 GB", model: "MLL63, MLKL3, MLH43"),
 			.init(generation: "iPhone 13 Pro Max", aNumber: "A2484\nA2641\nA2644\nA2645\nA2643", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D64AP", identifier: "iPhone14,3", finish: "Graphite", storage: "256 GB", model: "MLLA3, MLKR3, MLH83"),
 			.init(generation: "iPhone 13 Pro Max", aNumber: "A2484\nA2641\nA2644\nA2645\nA2643", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D64AP", identifier: "iPhone14,3", finish: "Graphite", storage: "512 GB", model: "MLLF3, MLKW3, MLHD3"),
@@ -1551,7 +1561,20 @@ public extension iPhone {
 			.init(generation: "iPhone 13 Pro Max", aNumber: "A2484\nA2641\nA2644\nA2645\nA2643", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D64AP", identifier: "iPhone14,3", finish: "Sierra Blue", storage: "128 GB", model: "MLL93, MLKP3, MLH73"),
 			.init(generation: "iPhone 13 Pro Max", aNumber: "A2484\nA2641\nA2644\nA2645\nA2643", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D64AP", identifier: "iPhone14,3", finish: "Sierra Blue", storage: "256 GB", model: "MLLE3, MLKV3, MLHC3"),
 			.init(generation: "iPhone 13 Pro Max", aNumber: "A2484\nA2641\nA2644\nA2645\nA2643", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D64AP", identifier: "iPhone14,3", finish: "Sierra Blue", storage: "512 GB", model: "MLLJ3, MLL03, MLHG3"),
-			.init(generation: "iPhone 13 Pro Max", aNumber: "A2484\nA2641\nA2644\nA2645\nA2643", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D64AP", identifier: "iPhone14,3", finish: "Sierra Blue", storage: "1TB", model: "MLLN3, MLL53, MLHL3")
+			.init(generation: "iPhone 13 Pro Max", aNumber: "A2484\nA2641\nA2644\nA2645\nA2643", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D64AP", identifier: "iPhone14,3", finish: "Sierra Blue", storage: "1TB", model: "MLLN3, MLL53, MLHL3"),
+			.init(generation: "iPhone 13 Pro Max", aNumber: "A2484\nA2641\nA2644\nA2645\nA2643", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D64AP", identifier: "iPhone14,3", finish: "Alpine Green", storage: "128 GB", model: "MNCP3, MNCK3, MNCY3"),
+			.init(generation: "iPhone 13 Pro Max", aNumber: "A2484\nA2641\nA2644\nA2645\nA2643", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D64AP", identifier: "iPhone14,3", finish: "Alpine Green", storage: "256 GB", model: "MNCQ3, MNCL3, MND03"),
+			.init(generation: "iPhone 13 Pro Max", aNumber: "A2484\nA2641\nA2644\nA2645\nA2643", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D64AP", identifier: "iPhone14,3", finish: "Alpine Green", storage: "512 GB", model: "MNCR3, MNCM3, MND13"),
+			.init(generation: "iPhone 13 Pro Max", aNumber: "A2484\nA2641\nA2644\nA2645\nA2643", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D64AP", identifier: "iPhone14,3", finish: "Alpine Green", storage: "1 TB", model: "MNCT3, MNCN3, MND23"),
+			.init(generation: "iPhone SE (3rd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "D49AP", identifier: "iPhone14,6", finish: "Midnight", storage: "64 GB", model: "MMX53, MMWV3, MMXF3"),
+			.init(generation: "iPhone SE (3rd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "D49AP", identifier: "iPhone14,6", finish: "Midnight", storage: "128 GB", model: "MMX83, MMWY3, MMXJ3"),
+			.init(generation: "iPhone SE (3rd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "D49AP", identifier: "iPhone14,6", finish: "Midnight", storage: "256 GB", model: "MMXC3, MMX23, MMXM3"),
+			.init(generation: "iPhone SE (3rd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "D49AP", identifier: "iPhone14,6", finish: "Starlight", storage: "64 GB", model: "MMX63, MMWW3, MMXG3"),
+			.init(generation: "iPhone SE (3rd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "D49AP", identifier: "iPhone14,6", finish: "Starlight", storage: "128 GB", model: "MMX93, MMX03, MMXK3"),
+			.init(generation: "iPhone SE (3rd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "D49AP", identifier: "iPhone14,6", finish: "Starlight", storage: "256 GB", model: "MMXD3, MMX33, MMXN3"),
+			.init(generation: "iPhone SE (3rd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "D49AP", identifier: "iPhone14,6", finish: "PRODUCT(RED)", storage: "64 GB", model: "MMX73, MMWX3, MMXH3"),
+			.init(generation: "iPhone SE (3rd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "D49AP", identifier: "iPhone14,6", finish: "PRODUCT(RED)", storage: "128 GB", model: "MMXA3, MMX13, MMXL3"),
+			.init(generation: "iPhone SE (3rd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "D49AP", identifier: "iPhone14,6", finish: "PRODUCT(RED)", storage: "256 GB", model: "MMXE3, MMX43, MMXP3")
         ]
     }
 }
