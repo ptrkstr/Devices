@@ -1,4 +1,4 @@
-// Generated on 2022-03-14 03:05:12 +0000
+// Generated on 2022-03-16 03:07:53 +0000
 // Manual modifications will be overwitten.
 
 public extension Airpod {
@@ -479,7 +479,27 @@ public extension iPadAir {
 			.init(generation: "iPad Air (4th generation)", aNumber: "A2324\nA2325\nA2072", bootrom: "Bootrom 5281.0.0.100.45", fccID: "BCGA2324\nBCGA2072", internalName: "J308AP", identifier: "iPad13,2", finish: "Green", storage: "64 GB", model: "MYH12, MYJ22"),
 			.init(generation: "iPad Air (4th generation)", aNumber: "A2324\nA2325\nA2072", bootrom: "Bootrom 5281.0.0.100.45", fccID: "BCGA2324\nBCGA2072", internalName: "J308AP", identifier: "iPad13,2", finish: "Green", storage: "256 GB", model: "MYH72, MYJ72"),
 			.init(generation: "iPad Air (4th generation)", aNumber: "A2324\nA2325\nA2072", bootrom: "Bootrom 5281.0.0.100.45", fccID: "BCGA2324\nBCGA2072", internalName: "J308AP", identifier: "iPad13,2", finish: "Sky Blue", storage: "64 GB", model: "MYH02, MYJ12"),
-			.init(generation: "iPad Air (4th generation)", aNumber: "A2324\nA2325\nA2072", bootrom: "Bootrom 5281.0.0.100.45", fccID: "BCGA2324\nBCGA2072", internalName: "J308AP", identifier: "iPad13,2", finish: "Sky Blue", storage: "256 GB", model: "MYH62, MYJ62")
+			.init(generation: "iPad Air (4th generation)", aNumber: "A2324\nA2325\nA2072", bootrom: "Bootrom 5281.0.0.100.45", fccID: "BCGA2324\nBCGA2072", internalName: "J308AP", identifier: "iPad13,2", finish: "Sky Blue", storage: "256 GB", model: "MYH62, MYJ62"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J407AP", identifier: "iPad13,6", finish: "Space Gray", storage: "64 GB", model: "MM9C3"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J407AP", identifier: "iPad13,6", finish: "Space Gray", storage: "256 GB", model: "MM9L3"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J407AP", identifier: "iPad13,6", finish: "Pink", storage: "64 GB", model: "MM9D3"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J407AP", identifier: "iPad13,6", finish: "Pink", storage: "256 GB", model: "MM9M3"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J407AP", identifier: "iPad13,6", finish: "Purple", storage: "64 GB", model: "MME23"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J407AP", identifier: "iPad13,6", finish: "Purple", storage: "256 GB", model: "MME63"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J407AP", identifier: "iPad13,6", finish: "Blue", storage: "64 GB", model: "MM9E3"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J407AP", identifier: "iPad13,6", finish: "Blue", storage: "256 GB", model: "MM9N3"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J407AP", identifier: "iPad13,6", finish: "Starlight", storage: "64 GB", model: "MM9F3"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J407AP", identifier: "iPad13,6", finish: "Starlight", storage: "256 GB", model: "MM9P3"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J408AP", identifier: "iPad13,7", finish: "Space Gray", storage: "64 GB", model: "MM6R3"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J408AP", identifier: "iPad13,7", finish: "Space Gray", storage: "256 GB", model: "MM713"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J408AP", identifier: "iPad13,7", finish: "Pink", storage: "64 GB", model: "MM6T3"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J408AP", identifier: "iPad13,7", finish: "Pink", storage: "256 GB", model: "MM723"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J408AP", identifier: "iPad13,7", finish: "Purple", storage: "64 GB", model: "MME93"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J408AP", identifier: "iPad13,7", finish: "Purple", storage: "256 GB", model: "MMED3"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J408AP", identifier: "iPad13,7", finish: "Blue", storage: "64 GB", model: "MM6U3"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J408AP", identifier: "iPad13,7", finish: "Blue", storage: "256 GB", model: "MM733"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J408AP", identifier: "iPad13,7", finish: "Starlight", storage: "64 GB", model: "MM6V3"),
+			.init(generation: "iPad Air (5th generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "J408AP", identifier: "iPad13,7", finish: "Starlight", storage: "256 GB", model: "MM743")
         ]
     }
 }
