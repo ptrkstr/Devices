@@ -1,4 +1,4 @@
-// Generated on 2022-03-29 03:20:30 +0000
+// Generated on 2022-04-10 03:15:44 +0000
 // Manual modifications will be overwitten.
 
 public extension Airpod {
@@ -1508,7 +1508,7 @@ public extension iPhone {
 			.init(generation: "iPhone 12 Pro Max", aNumber: "A2342\nA2410\nA2411\nA2412", bootrom: "Bootrom 5281.0.0.100.45", fccID: "BCG-E3548A", internalName: "D54pAP", identifier: "iPhone13,4", finish: "Gold", storage: "256 GB", model: "MGC63, MGDE3, MG943, MGAM3, MG9W3, MG9H3, MGCM3"),
 			.init(generation: "iPhone 12 Pro Max", aNumber: "A2342\nA2410\nA2411\nA2412", bootrom: "Bootrom 5281.0.0.100.45", fccID: "BCG-E3548A", internalName: "D54pAP", identifier: "iPhone13,4", finish: "Gold", storage: "512 GB", model: "MGCC3, MGDK3, MGCR3, MG983, MGAW3, MGA33, MG9M3"),
 			.init(generation: "iPhone 12 Pro Max", aNumber: "A2342\nA2410\nA2411\nA2412", bootrom: "Bootrom 5281.0.0.100.45", fccID: "BCG-E3548A", internalName: "D54pAP", identifier: "iPhone13,4", finish: "Pacific Blue", storage: "128 GB", model: "MGC33, MGDA3, MGCJ3, MG913, MGAF3, MG9T3, MG9E3"),
-			.init(generation: "iPhone 12 Pro Max", aNumber: "A2342\nA2410\nA2411\nA2412", bootrom: "Bootrom 5281.0.0.100.45", fccID: "BCG-E3548A", internalName: "D54pAP", identifier: "iPhone13,4", finish: "Pacific Blue", storage: "256 GB", model: "MGC73, MGDF3, MG953, MGAQ3, MG9X3, MG9J3, MGCN3"),
+			.init(generation: "iPhone 12 Pro Max", aNumber: "A2342\nA2410\nA2411\nA2412", bootrom: "Bootrom 5281.0.0.100.45", fccID: "BCG-E3548A", internalName: "D54pAP", identifier: "iPhone13,4", finish: "Pacific Blue", storage: "256 GB", model: "MGC73, MGDF3, MG953, MGAQ3, MG9X3, MG9J3, MGCN3, MGD23"),
 			.init(generation: "iPhone 12 Pro Max", aNumber: "A2342\nA2410\nA2411\nA2412", bootrom: "Bootrom 5281.0.0.100.45", fccID: "BCG-E3548A", internalName: "D54pAP", identifier: "iPhone13,4", finish: "Pacific Blue", storage: "512 GB", model: "MGCE3, MGDL3, MG993, MGAX3, MGA43, MG9N3, MGCT3"),
 			.init(generation: "iPhone 13 mini", aNumber: "A2481\nA2626\nA2629\nA2630\nA2628", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D16AP", identifier: "iPhone14,4", finish: "PRODUCT(RED)", storage: "128 GB", model: "MLK33, MLHQ3, MLDF3"),
 			.init(generation: "iPhone 13 mini", aNumber: "A2481\nA2626\nA2629\nA2630\nA2628", bootrom: "Bootrom 6338.0.0.200.19", fccID: "?", internalName: "D16AP", identifier: "iPhone14,4", finish: "PRODUCT(RED)", storage: "256 GB", model: "MLK83, MLHW3, MLDL3"),
