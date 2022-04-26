@@ -1,4 +1,4 @@
-// Generated on 2022-04-10 03:15:44 +0000
+// Generated on 2022-04-26 03:30:05 +0000
 // Manual modifications will be overwitten.
 
 public extension Airpod {
@@ -44,8 +44,8 @@ public extension SiriRemote {
     static var all: [SiriRemote] {
         [
 			.init(generation: "Siri Remote", aNumber: "A1513", fccID: "BCGA1513", internalName: "B239AP", identifier: "Unknown", model: "MLLC2"),
-			.init(generation: "Siri Remote (2nd generation)", aNumber: "A1962", fccID: "BCGA1962", internalName: "B439AP", identifier: "Unknown", model: "MQGD2"),
-			.init(generation: "Siri Remote (3rd generation)", aNumber: "A2540", fccID: "BCGA2540", internalName: "Unknown", identifier: "Unknown", model: "MJFM3")
+			.init(generation: "Siri Remote (Rev A)", aNumber: "A1962", fccID: "BCGA1962", internalName: "B439AP", identifier: "Unknown", model: "MQGD2"),
+			.init(generation: "Siri Remote (2nd generation)", aNumber: "A2540", fccID: "BCGA2540", internalName: "Unknown", identifier: "Unknown", model: "MJFM3")
         ]
     }
 }
