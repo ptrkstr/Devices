@@ -1,11 +1,11 @@
 public struct Airpod: Decodable {
-    let generation: String
-    let aNumber: String
-    let bootrom: String
-    let fccID: String
-    let internalName: String
-    let identifier: String
-    let model: String
+    public let generation: String
+    public let aNumber: String
+    public let bootrom: String
+    public let fccID: String
+    public let internalName: String
+    public let identifier: String
+    public let model: String
     
     enum CodingKeys: String, CodingKey {
         case generation = "Generation"
