@@ -1,9 +1,9 @@
-public struct MacMini: Decodable {
-    public let generation: String
+public struct MacMini: Decodable, DeviceType {
+    public let generation: Generation
     public let aNumber: String
     public let fccID: String
     public let internalName: String
-    public let identifier: String
+    public let identifier: Identifier
     public let color: String
     public let storage: String
     public let model: String

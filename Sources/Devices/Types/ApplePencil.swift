@@ -1,9 +1,9 @@
-public struct ApplePencil: Decodable {
-    public let generation: String
+public struct ApplePencil: Decodable, DeviceType {
+    public let generation: Generation
     public let aNumber: String
     public let fccID: String
     public let internalName: String
-    public let identifier: String
+    public let identifier: Identifier
     public let model: String
     
     enum CodingKeys: String, CodingKey {
