@@ -57,4 +57,9 @@ final class Devices_Tests: XCTestCase {
             iPad.model.components(separatedBy: ", ")
         )
     }
+    
+    func test_all() {
+        let ipad = DeviceList.all["iPad3,6"]!.first!
+        XCTAssertEqual(ipad.generation, "iPad (4th generation)")
+    }
 }

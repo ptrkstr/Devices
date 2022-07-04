@@ -9,6 +9,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/scinfu/SwiftSoup", .upToNextMajor(from: "2.0.0")),
         .package(url: "https://github.com/ptrkstr/Slab", .upToNextMajor(from: "1.0.0")),
+        .package(url: "https://github.com/apple/swift-collections", .upToNextMajor(from: "1.0.0")),
         .package(path: "../") // Devices
     ],
     targets: [
@@ -16,7 +17,12 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .executableTarget(
             name: "Generator",
-            dependencies: ["Devices", "SwiftSoup", "Slab"],
+            dependencies: [
+                "Devices",
+                "SwiftSoup",
+                "Slab",
+                .product(name: "Collections", package: "swift-collections")
+            ],
             resources: [
                 .process("Resources")
             ]

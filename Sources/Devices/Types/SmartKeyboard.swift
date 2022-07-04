@@ -1,8 +1,8 @@
-public struct SmartKeyboard: Decodable {
-    public let generation: String
+public struct SmartKeyboard: Decodable, DeviceType {
+    public let generation: Generation
     public let aNumber: String
     public let internalName: String
-    public let identifier: String
+    public let identifier: Identifier
     public let iPadCompatibility: String
     public let model: String
     

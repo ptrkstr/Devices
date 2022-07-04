@@ -1,10 +1,10 @@
-public struct AppleWatch: Decodable {
-    public let generation: String
+public struct AppleWatch: Decodable, DeviceType {
+    public let generation: Generation
     public let aNumber: String
     public let bootrom: String
     public let fccID: String
     public let internalName: String
-    public let identifier: String
+    public let identifier: Identifier
     public let caseMaterial: String
     public let finish: String
     public let caseSize: String

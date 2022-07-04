@@ -1,10 +1,10 @@
-public struct iPad: Decodable {
-    public let generation: String
+public struct iPad: Decodable, DeviceType {
+    public let generation: Generation
     public let aNumber: String
     public let bootrom: String
     public let fccID: String
     public let internalName: String
-    public let identifier: String
+    public let identifier: Identifier
     public let finish: String
     public let storage: String
     public let model: String
