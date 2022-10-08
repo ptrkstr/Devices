@@ -1,4 +1,4 @@
-// Generated on 2022-09-20 04:02:46 +0000
+// Generated on 2022-10-08 03:40:44 +0000
 // Manual modifications will be overwitten.
 
 public extension Airpod {
@@ -8,7 +8,7 @@ public extension Airpod {
 			Airpod(generation: "AirPods (2nd generation)", aNumber: "A2031 (left AirPod)\nA2032 (right AirPod)\nA1938 (wireless charging case)", bootrom: "Unknown", fccID: "BCG-A2031\nBCG-A2032", internalName: "B288AP", identifier: "AirPods1,2\nAirPods2,1", model: "MRXJ2, MV7N2, MR8U2"),
 			Airpod(generation: "AirPods (3rd generation)", aNumber: "A2564 (left AirPod)\nA2565 (right AirPod)\nA2566 (MagSafe charging case)", bootrom: "Unknown", fccID: "BCG-A2564\nBCG-A2565", internalName: "B688AP", identifier: "AirPods1,3\nAudio2,1", model: "MME73, MPNY3"),
 			Airpod(generation: "AirPods Pro", aNumber: "A2083 (left AirPod)\nA2084 (right AirPod)\nA2190 (AirPods Pro/MagSafe charging case)", bootrom: "Unknown", fccID: "BCG-A2083\nBCG-A2084", internalName: "B298AP", identifier: "AirPods2,2\nAirPodsPro1,1\niProd8,1", model: "MWP22, MLWK3"),
-			Airpod(generation: "AirPods Pro (2nd generation)", aNumber: "Unknown (left AirPod)\n Unknown (right AirPod)\n Unknown (charging case)", bootrom: "Unknown", fccID: "Unknown", internalName: "B698AP", identifier: "AirPodsPro1,2", model: "MQD83"),
+			Airpod(generation: "AirPods Pro (2nd generation)", aNumber: "A2699 (left AirPod)\n A2698 (right AirPod)\n A2700 (charging case)", bootrom: "Unknown", fccID: "BCG-A2698\nBCG-A2699", internalName: "B698AP", identifier: "AirPodsPro1,2", model: "MQD83"),
 			Airpod(generation: "AirPods Max", aNumber: "A2096", bootrom: "Unknown", fccID: "BCG-A2096", internalName: "B515AP", identifier: "AirPodsMax1,1\niProd8,6", model: "MGYH3"),
 			Airpod(generation: "AirPods Max", aNumber: "A2096", bootrom: "Unknown", fccID: "BCG-A2096", internalName: "B515AP", identifier: "AirPodsMax1,1\niProd8,6", model: "MGYM3"),
 			Airpod(generation: "AirPods Max", aNumber: "A2096", bootrom: "Unknown", fccID: "BCG-A2096", internalName: "B515AP", identifier: "AirPodsMax1,1\niProd8,6", model: "MGYJ3"),
@@ -233,6 +233,50 @@ public extension AppleWatch {
 			AppleWatch(generation: "Apple Watch Series 7", aNumber: "A2477\nA2478", bootrom: "?", fccID: "BCG-A2477\nBCG-A2478", internalName: "N188bAP", identifier: "Watch6,9", caseMaterial: "Stainless Steel", finish: "Space Black", caseSize: "45mm", model: "MKMH3, MKMW3"),
 			AppleWatch(generation: "Apple Watch Series 7", aNumber: "A2477\nA2478", bootrom: "?", fccID: "BCG-A2477\nBCG-A2478", internalName: "N188bAP", identifier: "Watch6,9", caseMaterial: "Titanium", finish: "Titanium", caseSize: "45mm", model: "ML8W3, ML8Y3"),
 			AppleWatch(generation: "Apple Watch Series 7", aNumber: "A2477\nA2478", bootrom: "?", fccID: "BCG-A2477\nBCG-A2478", internalName: "N188bAP", identifier: "Watch6,9", caseMaterial: "Titanium", finish: "Space Black", caseSize: "45mm", model: "ML8V3, ML8X3"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N143sAP", identifier: "Watch6,10", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N143sAP", identifier: "Watch6,10", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N143sAP", identifier: "Watch6,10", caseMaterial: "Aluminum", finish: "Silver", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N143bAP", identifier: "Watch6,11", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N143bAP", identifier: "Watch6,11", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N143bAP", identifier: "Watch6,11", caseMaterial: "Aluminum", finish: "Silver", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N149sAP", identifier: "Watch6,12", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N149sAP", identifier: "Watch6,12", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N149sAP", identifier: "Watch6,12", caseMaterial: "Aluminum", finish: "Silver", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N149bAP", identifier: "Watch6,13", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N149bAP", identifier: "Watch6,13", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N149bAP", identifier: "Watch6,13", caseMaterial: "Aluminum", finish: "Silver", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Aluminum", finish: "Silver", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Aluminum", finish: "(PRODUCT)RED", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Stainless Steel", finish: "Gold", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Stainless Steel", finish: "Silver", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Stainless Steel", finish: "Graphite", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Stainless Steel", finish: "Space Black", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Aluminum", finish: "Silver", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Aluminum", finish: "(PRODUCT)RED", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Stainless Steel", finish: "Gold", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Stainless Steel", finish: "Silver", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Stainless Steel", finish: "Graphite", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Stainless Steel", finish: "Space Black", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Aluminum", finish: "Silver", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Aluminum", finish: "(PRODUCT)RED", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Stainless Steel", finish: "Gold", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Stainless Steel", finish: "Silver", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Stainless Steel", finish: "Graphite", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Stainless Steel", finish: "Space Black", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Aluminum", finish: "Silver", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Aluminum", finish: "(PRODUCT)RED", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Stainless Steel", finish: "Gold", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Stainless Steel", finish: "Silver", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Stainless Steel", finish: "Graphite", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Stainless Steel", finish: "Space Black", caseSize: "45mm", model: "?"),
 			AppleWatch(generation: "Apple Watch Ultra", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N199AP", identifier: "Watch6,18", caseMaterial: "Titanium", finish: "Titanium", caseSize: "49mm", model: "MQFY3, MQG03, MQG13")
         ]
     }
@@ -1853,7 +1897,7 @@ public struct DeviceList {
 			Airpod(generation: "AirPods Pro", aNumber: "A2083 (left AirPod)\nA2084 (right AirPod)\nA2190 (AirPods Pro/MagSafe charging case)", bootrom: "Unknown", fccID: "BCG-A2083\nBCG-A2084", internalName: "B298AP", identifier: "AirPods2,2\nAirPodsPro1,1\niProd8,1", model: "MWP22, MLWK3")
 		],
 		"AirPodsPro1,2": [
-			Airpod(generation: "AirPods Pro (2nd generation)", aNumber: "Unknown (left AirPod)\n Unknown (right AirPod)\n Unknown (charging case)", bootrom: "Unknown", fccID: "Unknown", internalName: "B698AP", identifier: "AirPodsPro1,2", model: "MQD83")
+			Airpod(generation: "AirPods Pro (2nd generation)", aNumber: "A2699 (left AirPod)\n A2698 (right AirPod)\n A2700 (charging case)", bootrom: "Unknown", fccID: "BCG-A2698\nBCG-A2699", internalName: "B698AP", identifier: "AirPodsPro1,2", model: "MQD83")
 		],
 		"AirPodsMax1,1": [
 			Airpod(generation: "AirPods Max", aNumber: "A2096", bootrom: "Unknown", fccID: "BCG-A2096", internalName: "B515AP", identifier: "AirPodsMax1,1\niProd8,6", model: "MGYH3"),
@@ -2144,6 +2188,66 @@ public struct DeviceList {
 			AppleWatch(generation: "Apple Watch Series 7", aNumber: "A2477\nA2478", bootrom: "?", fccID: "BCG-A2477\nBCG-A2478", internalName: "N188bAP", identifier: "Watch6,9", caseMaterial: "Stainless Steel", finish: "Space Black", caseSize: "45mm", model: "MKMH3, MKMW3"),
 			AppleWatch(generation: "Apple Watch Series 7", aNumber: "A2477\nA2478", bootrom: "?", fccID: "BCG-A2477\nBCG-A2478", internalName: "N188bAP", identifier: "Watch6,9", caseMaterial: "Titanium", finish: "Titanium", caseSize: "45mm", model: "ML8W3, ML8Y3"),
 			AppleWatch(generation: "Apple Watch Series 7", aNumber: "A2477\nA2478", bootrom: "?", fccID: "BCG-A2477\nBCG-A2478", internalName: "N188bAP", identifier: "Watch6,9", caseMaterial: "Titanium", finish: "Space Black", caseSize: "45mm", model: "ML8V3, ML8X3")
+		],
+		"Watch6,10": [
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N143sAP", identifier: "Watch6,10", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N143sAP", identifier: "Watch6,10", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N143sAP", identifier: "Watch6,10", caseMaterial: "Aluminum", finish: "Silver", caseSize: "41mm", model: "?")
+		],
+		"Watch6,11": [
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N143bAP", identifier: "Watch6,11", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N143bAP", identifier: "Watch6,11", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N143bAP", identifier: "Watch6,11", caseMaterial: "Aluminum", finish: "Silver", caseSize: "45mm", model: "?")
+		],
+		"Watch6,12": [
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N149sAP", identifier: "Watch6,12", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N149sAP", identifier: "Watch6,12", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N149sAP", identifier: "Watch6,12", caseMaterial: "Aluminum", finish: "Silver", caseSize: "41mm", model: "?")
+		],
+		"Watch6,13": [
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N149bAP", identifier: "Watch6,13", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N149bAP", identifier: "Watch6,13", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "SE (2nd generation)", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N149bAP", identifier: "Watch6,13", caseMaterial: "Aluminum", finish: "Silver", caseSize: "45mm", model: "?")
+		],
+		"Watch6,14": [
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Aluminum", finish: "Silver", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Aluminum", finish: "(PRODUCT)RED", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Stainless Steel", finish: "Gold", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Stainless Steel", finish: "Silver", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Stainless Steel", finish: "Graphite", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,14", caseMaterial: "Stainless Steel", finish: "Space Black", caseSize: "41mm", model: "?")
+		],
+		"Watch6,15": [
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Aluminum", finish: "Silver", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Aluminum", finish: "(PRODUCT)RED", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Stainless Steel", finish: "Gold", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Stainless Steel", finish: "Silver", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Stainless Steel", finish: "Graphite", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,15", caseMaterial: "Stainless Steel", finish: "Space Black", caseSize: "45mm", model: "?")
+		],
+		"Watch6,16": [
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Aluminum", finish: "Silver", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Aluminum", finish: "(PRODUCT)RED", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Stainless Steel", finish: "Gold", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Stainless Steel", finish: "Silver", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Stainless Steel", finish: "Graphite", caseSize: "41mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,16", caseMaterial: "Stainless Steel", finish: "Space Black", caseSize: "41mm", model: "?")
+		],
+		"Watch6,17": [
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Aluminum", finish: "Midnight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Aluminum", finish: "Starlight", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Aluminum", finish: "Silver", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Aluminum", finish: "(PRODUCT)RED", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Stainless Steel", finish: "Gold", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Stainless Steel", finish: "Silver", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Stainless Steel", finish: "Graphite", caseSize: "45mm", model: "?"),
+			AppleWatch(generation: "Apple Watch Series 8", aNumber: "?", bootrom: "?", fccID: "?", internalName: "?", identifier: "Watch6,17", caseMaterial: "Stainless Steel", finish: "Space Black", caseSize: "45mm", model: "?")
 		],
 		"Watch6,18": [
 			AppleWatch(generation: "Apple Watch Ultra", aNumber: "?", bootrom: "?", fccID: "?", internalName: "N199AP", identifier: "Watch6,18", caseMaterial: "Titanium", finish: "Titanium", caseSize: "49mm", model: "MQFY3, MQG03, MQG13")
