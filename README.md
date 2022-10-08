@@ -54,9 +54,17 @@ Each device has an `all` property. Use this to find, filter, map etc. The follow
 ### Find the generation of current device
 
 ```swift
-let identifier = // Use a method shown in ## Alternatives
+let identifier = "iPad3,6"
 let iPhone = iPhone.all.first { $0.identifier == identifier }
-iPhone.generation // iPhone 11 Pro Max
+iPhone.generation // iPad (4th generation)
+```
+
+### Find the generation of current device using subscript
+
+```swift
+let identifier = "iPad3,6"
+let iPhone = DeviceList().all[identifer]
+iPhone.generation // iPad (4th generation)
 ```
 
 ### List all available colors of the iPad Air 2 64 GB
