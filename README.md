@@ -63,7 +63,7 @@ iPhone.generation // iPad (4th generation)
 
 ```swift
 let identifier = "iPad3,6"
-let iPhone = DeviceList().all[identifer]
+let iPhone = DeviceList().all[identifer].first!
 iPhone.generation // iPad (4th generation)
 ```
 
