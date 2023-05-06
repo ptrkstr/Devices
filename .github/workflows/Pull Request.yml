@@ -7,14 +7,10 @@ on:
 concurrency:
   group: ${{ github.head_ref }}
   cancel-in-progress: true
-    
-env:
-  DEVELOPER_DIR: /Applications/Xcode_13.0.app/Contents/Developer
 
 jobs:
   job:
-
-    runs-on: macos-11
+    runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v2
