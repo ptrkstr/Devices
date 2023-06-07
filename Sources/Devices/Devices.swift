@@ -1,4 +1,4 @@
-// Generated on 2022-10-08 03:40:44 +0000
+// Generated on 2023-06-07 03:15:43 +0000
 // Manual modifications will be overwitten.
 
 public extension Airpod {
@@ -421,7 +421,23 @@ public extension iPad {
 			iPad(generation: "iPad (9th generation)", aNumber: "A2603\nA2604\nA2605", bootrom: "?", fccID: "BCGA2603\nBCGA2604\nBCGA2605", internalName: "J182AP", identifier: "iPad12,2", finish: "Silver", storage: "64 GB", model: "MK493, MK673"),
 			iPad(generation: "iPad (9th generation)", aNumber: "A2603\nA2604\nA2605", bootrom: "?", fccID: "BCGA2603\nBCGA2604\nBCGA2605", internalName: "J182AP", identifier: "iPad12,2", finish: "Silver", storage: "256 GB", model: "MK4H3, MK6A3"),
 			iPad(generation: "iPad (9th generation)", aNumber: "A2603\nA2604\nA2605", bootrom: "?", fccID: "BCGA2603\nBCGA2604\nBCGA2605", internalName: "J182AP", identifier: "iPad12,2", finish: "Space Gray", storage: "64 GB", model: "MK473, MK663"),
-			iPad(generation: "iPad (9th generation)", aNumber: "A2603\nA2604\nA2605", bootrom: "?", fccID: "BCGA2603\nBCGA2604\nBCGA2605", internalName: "J182AP", identifier: "iPad12,2", finish: "Space Gray", storage: "256 GB", model: "MK4E3, MK693")
+			iPad(generation: "iPad (9th generation)", aNumber: "A2603\nA2604\nA2605", bootrom: "?", fccID: "BCGA2603\nBCGA2604\nBCGA2605", internalName: "J182AP", identifier: "iPad12,2", finish: "Space Gray", storage: "256 GB", model: "MK4E3, MK693"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Yellow", storage: "64 GB", model: "MPQ23"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Yellow", storage: "256 GB", model: "MPQA3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Silver", storage: "64 GB", model: "MPQ03"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Silver", storage: "256 GB", model: "MPQ83"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Blue", storage: "64 GB", model: "MPQ13"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Blue", storage: "256 GB", model: "MPQ93"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Pink", storage: "64 GB", model: "MPQ33"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Pink", storage: "256 GB", model: "MPQC3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Yellow", storage: "64 GB", model: "MQ6V3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Yellow", storage: "256 GB", model: "MQ6L3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Silver", storage: "64 GB", model: "MQ6J3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Silver", storage: "256 GB", model: "MQ6T3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Blue", storage: "64 GB", model: "MQ6K3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Blue", storage: "256 GB", model: "MQ6U3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Pink", storage: "64 GB", model: "MQ6M3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Pink", storage: "256 GB", model: "MQ6W3")
         ]
     }
 }
@@ -2429,6 +2445,26 @@ public struct DeviceList {
 			iPad(generation: "iPad (9th generation)", aNumber: "A2603\nA2604\nA2605", bootrom: "?", fccID: "BCGA2603\nBCGA2604\nBCGA2605", internalName: "J182AP", identifier: "iPad12,2", finish: "Silver", storage: "256 GB", model: "MK4H3, MK6A3"),
 			iPad(generation: "iPad (9th generation)", aNumber: "A2603\nA2604\nA2605", bootrom: "?", fccID: "BCGA2603\nBCGA2604\nBCGA2605", internalName: "J182AP", identifier: "iPad12,2", finish: "Space Gray", storage: "64 GB", model: "MK473, MK663"),
 			iPad(generation: "iPad (9th generation)", aNumber: "A2603\nA2604\nA2605", bootrom: "?", fccID: "BCGA2603\nBCGA2604\nBCGA2605", internalName: "J182AP", identifier: "iPad12,2", finish: "Space Gray", storage: "256 GB", model: "MK4E3, MK693")
+		],
+		"iPad13,18": [
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Yellow", storage: "64 GB", model: "MPQ23"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Yellow", storage: "256 GB", model: "MPQA3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Silver", storage: "64 GB", model: "MPQ03"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Silver", storage: "256 GB", model: "MPQ83"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Blue", storage: "64 GB", model: "MPQ13"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Blue", storage: "256 GB", model: "MPQ93"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Pink", storage: "64 GB", model: "MPQ33"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2696", bootrom: "?", fccID: "BCGA2696", internalName: "J271AP", identifier: "iPad13,18", finish: "Pink", storage: "256 GB", model: "MPQC3")
+		],
+		"iPad13,19": [
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Yellow", storage: "64 GB", model: "MQ6V3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Yellow", storage: "256 GB", model: "MQ6L3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Silver", storage: "64 GB", model: "MQ6J3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Silver", storage: "256 GB", model: "MQ6T3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Blue", storage: "64 GB", model: "MQ6K3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Blue", storage: "256 GB", model: "MQ6U3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Pink", storage: "64 GB", model: "MQ6M3"),
+			iPad(generation: "iPad (10th generation)", aNumber: "A2757", bootrom: "?", fccID: "BCGA2757", internalName: "J272AP", identifier: "iPad13,19", finish: "Pink", storage: "256 GB", model: "MQ6W3")
 		],
 		"iPad4,1": [
 			iPadAir(generation: "iPad Air", aNumber: "A1474", bootrom: "Bootrom 1704.10", fccID: "BCGA1474", internalName: "J71AP", identifier: "iPad4,1", finish: "Silver", storage: "16 GB", model: "MD788"),
