@@ -1,3 +1,11 @@
+# 🚨 No Longer Maintained 🚨
+
+- The website this depends on has changed, breaking the daily CI check.
+- Some time would be needed to figure out the issue.
+- This is a project with no sponsorship and so I don't have time to fix things breaking.
+
+---
+
 <div align="center">
     <img src="Assets/logo/logo.svg" height=150pt/>
     <h1 style="border-bottom: none">
